@@ -1,0 +1,131 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¿Cómo está el clima?</title>
+    <!--Proyecto de aprendizaje.-->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Créditos a los íconos que utilicé, los cuales no son de mi autoría. Agradezco a los autores que menciono a continuación:
+    <a href="https://www.flaticon.com/free-icons/pixelated" title="pixelated icons">Pixelated icons created by Freepik - Flaticon</a>-->
+  </head>
+  <body>
+    <!--Estructura de objetos; así como sub - estructuras.-->
+    <!--Esturctura principal: card con información del clima.-->
+
+    <div class="main-card-container">
+      <!--Como primera sub - estructura: búsqueda.-->
+      <div class="card-header">
+        <!--sub - estructura que contendrá los elementos a configurar.-->
+        <div class="card-searching">
+          <input
+            type="text"
+            placeholder="Localización..."
+            class="card-searchingBar"
+          />
+          <button class="card-searchingButton">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="climeData-structure">
+        <div class="climeData-IconTemperature">
+          <h2 class="title-city">Yucatán</h2>
+          <img
+            src="./assets/iconsForConditions/01d.png"
+            alt="Ícono del estado del clima."
+            class="iconState"
+          />
+          <h2 class="climeData-temperature">29 °C</h2>
+          <h3 class="climeData-description">Sunny</h3>
+        </div>
+      </div>
+
+      <div class="card-Humidity">
+        <div class="humdity-Section">
+          <img src="./assets/iconsForConditions/humidity-Icon.png" alt="" />
+          <h2 class="humidity-Title">Humedad</h2>
+          <p class="humidity-Value">10 %</p>
+        </div>
+      </div>
+
+      <div class="card-Wind">
+        <div class="wind-Section">
+          <img src="./assets/iconsForConditions/wind-Icon.png" alt="" />
+          <h2 class="wind-Title">Vientos</h2>
+          <p class="wind-Value">10 m/s</p>
+        </div>
+      </div>
+      <div class="card-UV">
+        <div class="UV-Section">
+          <img src="./assets/iconsForConditions/UV-Icon.png" alt="" />
+          <h2 class="UV-Title">Índice UV</h2>
+          <p class="UV-Value"></p>
+        </div>
+      </div>
+
+      <div class="forecast-Section">
+        <div class="days-Structure">
+          <h2>Pronóstico</h2>
+          <div class="days-One">
+            <p class="p-1">3/14</p>
+            <img
+              src="./assets/iconsForConditions/11d.png"
+              alt="Ícono del estado del clima"
+              class="icon-1"
+            />
+            <p class="p-1-temp">35 °C / 24 °C</p>
+          </div>
+          <div class="days-Two">
+            <p class="p-2">3/14</p>
+            <img
+              src="./assets/iconsForConditions/11d.png"
+              alt="Ícono del estado del clima"
+              class="icon-2"
+            />
+            <p class="p-2-temp">35 °C / 24 °C</p>
+          </div>
+          <div class="days-Three">
+            <p class="p-3">3/14</p>
+            <img
+              src="./assets/iconsForConditions/11d.png"
+              alt="Ícono del estado del clima"
+              class="icon-3"
+            />
+            <p class="p-3-temp">35 °C / 24 °C</p>
+          </div>
+          <div class="days-Four">
+            <p class="p-4">3/14</p>
+            <img
+              src="./assets/iconsForConditions/01d.png"
+              alt="Ícono del estado del clima"
+              class="icon-4"
+            />
+            <p class="p-4-temp">35 °C / 24 °C</p>
+          </div>
+          <div class="days-Five">
+            <p class="p-5">3/14</p>
+            <img
+              src="./assets/iconsForConditions/01d.png"
+              alt="Ícono del estado del clima"
+              class="icon-5"
+            />
+            <p class="p-5-temp">35 °C / 24 °C</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/2e5d5248af.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

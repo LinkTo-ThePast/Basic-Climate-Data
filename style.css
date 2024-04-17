@@ -1,0 +1,255 @@
+* {
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: #202740;
+  min-height: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 68px;
+  margin-left: 68px;
+}
+
+.main-card-container {
+  border-radius: 30px;
+  background-color: #3956af;
+  width: 405px;
+  height: 350px;
+  padding: 25px;
+  box-shadow: #e1cde2 10px 10px;
+}
+
+.card-searching {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-searchingBar {
+  width: 300px;
+  height: 35px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  padding: 12px 14px;
+  background-color: #e1cde2;
+}
+
+.card-searchingButton {
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-color: #e1cde2;
+}
+
+.card-searchingButton:hover {
+  background-color: #55d6be;
+  transition: 0.3s ease-in-out;
+}
+
+.title-City {
+  margin-bottom: 12px;
+}
+
+.climeData-IconTemperature {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.climeData-IconTemperature img {
+  width: 100px;
+  height: 100px;
+}
+
+.climeData-temperature {
+  margin-top: 14px;
+  font-size: 24px;
+}
+
+.climeData-description {
+  font-size: 20px;
+}
+/*Fin de la sección 1 (card principal). Comienzo sección 2: cartas complementarias.*/
+
+.card-Humidity {
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: -25px;
+  padding: 20px 0px 0px 40px;
+  background-color: #3956af;
+  border-radius: 25px;
+  box-shadow: #e1cde2 10px 10px;
+  width: 180px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-Humidity img {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.card-Humidity h2 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.card-Humidity p {
+  margin-left: 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*Carta para la velocidad del viento.*/
+
+.card-Wind {
+  position: relative;
+  margin-top: -158px;
+  margin-left: 201px;
+  padding: 20px 0px 0px 40px;
+  background-color: #3956af;
+  border-radius: 25px;
+  box-shadow: #e1cde2 10px 10px;
+  width: 180px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-Wind img {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.card-Wind h2 {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.card-Wind p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/*card para rayos UV*/
+.card-UV {
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 90px;
+  padding: 20px 0px 0px 40px;
+  background-color: #3956af;
+  border-radius: 25px;
+  box-shadow: #e1cde2 10px 10px;
+  width: 180px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-UV img {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.card-UV h2 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.card-UV p {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.forecast-Section {
+  margin-top: -779px;
+  margin-left: 680px;
+  width: 780px;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:flex-start;
+  border-radius: 10px;
+  background-color: #3956af;
+  box-shadow: #e1cde2 10px 10px;
+}
+
+
+.days-Structure {
+  display: flex;
+  flex-direction: column;
+  justify-content:first baseline;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+
+.days-Structure img {
+  width: 50px;
+  margin-right: 50px;
+}
+
+.days-Structure h2 {
+  margin-bottom: 15px;
+  margin-left: -50px;
+}
+
+.days-One {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+
+.days-Two {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+
+.days-Three {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.days-Four {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.days-Five {
+  display: flex;
+}
+
+.days-Structure p{
+  
+  margin-right: 50px;
+}
+
